@@ -1,0 +1,6 @@
+#extend("base"):
+    #export("title", "Welcome")
+    #export("body"):
+        Hello, #(name)!
+    #endexport
+#endextend
